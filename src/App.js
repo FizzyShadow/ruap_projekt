@@ -34,7 +34,7 @@ class App extends Component {
       body: JSON.stringify(data),
     };
     fetch(
-      "https://customvisionasl-prediction.cognitiveservices.azure.com/customvision/v3.0/Prediction/f95a81dc-71ed-45c1-a0f6-00f77762ddc2/classify/iterations/asl_model01/url",
+      "https://customvisionasl-prediction.cognitiveservices.azure.com/customvision/v3.0/Prediction/f95a81dc-71ed-45c1-a0f6-00f77762ddc2/classify/iterations/asl_model02/url",
       requestOptions
     )
       .then((response) => response.json())
