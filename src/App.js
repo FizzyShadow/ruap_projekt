@@ -10,8 +10,7 @@ class App extends Component {
       input: "",
       imageUrl: "",
       prediction: "",
-      predictionArray: null,
-      box: {},
+      predictionArray: null
     };
   }
 
@@ -58,9 +57,8 @@ class App extends Component {
             onButtonSubmit={this.onButtonSubmit}
             
           />
-           {console.log(this.state.predictionArray)}
           <div className="resultBox">
-            <ImageRecognition box={box} imageUrl={imageUrl} />
+            <ImageRecognition imageUrl={imageUrl} />
 
               {this.state.predictionArray != null ?
                 <div className="topResults">

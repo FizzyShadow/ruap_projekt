@@ -1,18 +1,17 @@
 import React from "react";
 import "./ImageRecognition.css";
 
-const ImageRecognition = ({ imageUrl, box }) => {
+const ImageRecognition = ({ imageUrl }) => {
   return (
     <div className="">
-      <div className="">
-        <img
-          className="detectedImage"
-          id="inputimage"
-          alt=""
-          src={imageUrl}
-        />
-      </div>
+      <img
+        className="detectedImage"
+        id="inputimage"
+        alt=""
+        src={imageUrl}
+      />
     </div>
+
   );
 };
 
